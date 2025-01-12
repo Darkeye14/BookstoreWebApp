@@ -32,6 +32,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.h2database:h2")
+	implementation("org.flywaydb:flyway-core:9.22.0")
 	implementation("org.postgresql:postgresql:42.7.2")
 	testImplementation("com.h2database:h2:2.2.224")
 	annotationProcessor("org.projectlombok:lombok")
